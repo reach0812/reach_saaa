@@ -1,7 +1,13 @@
 * { box-sizing: border-box; }
-
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+ 
+}
 body {
-
+  min-height: 100dvh;
   margin: 0;
   font-family: 'Inter', sans-serif;
   
@@ -184,7 +190,7 @@ button {
   border-radius: 999px;
   cursor: pointer;
   font-size: 16px;
-
+position: sticky;
   transform: scale(1);
   transition: all 0.25s ease;
 }
