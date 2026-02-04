@@ -378,7 +378,7 @@ background: url("fun.gif") center/cover no-repeat;
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55); /* adjust darkness */
+
   z-index: 0;
    pointer-events: none;
 }
@@ -486,5 +486,6 @@ background: url("fun.gif") center/cover no-repeat;
     height: 220px;
   }
 }
+
 
 
