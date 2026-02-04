@@ -58,6 +58,7 @@ body.memo {
   background-repeat: no-repeat;
   color: #f3f5f7;
   text-align: center;
+  height: 100h;
 
 }
 h1.hh{
@@ -430,11 +431,11 @@ background: url("fun.gif") center/cover no-repeat;
 /* VIDEO STYLE */
 .carousel-container video {
   position: absolute;
-  width: 260px;
-  height: 190px;
+  width: 290px;
+  height: 210px;
   object-fit: cover;
   border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(242, 233, 69, 0.5);
   transition: transform 0.5s, box-shadow 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -479,24 +480,5 @@ background: url("fun.gif") center/cover no-repeat;
     height: 220px;
   }
 }
-@media (max-width: 1024px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-}
-
-
 
 
